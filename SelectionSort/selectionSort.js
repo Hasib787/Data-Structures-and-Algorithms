@@ -1,4 +1,5 @@
 //selection sort 
+const arr = [5, 8, 3, 10, 1, 6, 4, 7, 9, 2];
 const selectionSort = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         let indexMin = i;
@@ -15,5 +16,5 @@ const selectionSort = (arr) => {
     }
     return arr;
 }
-const arr = [5, 8, 3, 10, 1, 6, 4, 7, 9, 2];
+
 console.log(selectionSort(arr));
