@@ -1,3 +1,13 @@
+// const friends = [];
+
+// friends.push("Hasib");
+// friends.push("Alif");
+// friends.push("Arif");
+// friends.push("Bani");
+// console.log(friends);
+// friends.pop();
+// friends.pop();
+// console.log(friends);
 class Stack {
     constructor() {
         this.stack = [];
