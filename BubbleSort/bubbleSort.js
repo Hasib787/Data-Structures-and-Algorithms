@@ -1,14 +1,15 @@
 //Bubble Sort
-const bubbleSort = (arr) =>{
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j <arr.length - i -1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                let temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
+const bubbleSort = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        let temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
     }
-    return arr;
-}
-console.log(bubbleSort([5, 8, 3, 10, 1, 6, 4, 7, 9, 2]));
+  }
+  return arr;
+};
+const numbers = [2, 5, 10, 1, 54, 98, 15, 23, 27, 32, 4];
+console.log(bubbleSort(numbers));
